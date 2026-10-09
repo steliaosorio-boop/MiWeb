@@ -446,3 +446,183 @@ textarea {
     justify-content: space-between;
     align-items: center;
 }
+
+
+/* =====================================
+   PROYECTOS PRODUCTIVOS
+===================================== */
+
+.titulo-proyectos{
+    text-align:center;
+    color:#71B100;
+    margin:4rem 0;
+    font-size:4rem;
+}
+
+.institucion{
+    background:#ffffff;
+    border-radius:1rem;
+    box-shadow:0 3px 10px rgba(0,0,0,.15);
+    margin-bottom:2rem;
+    overflow:hidden;
+}
+
+.institucion summary{
+    background:#71B100;
+    color:#ffffff;
+    padding:1.8rem;
+    font-size:2.4rem;
+    font-weight:700;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.institucion summary:hover{
+    background:#5c9500;
+}
+
+.promocion{
+    padding:1rem 2rem;
+    border-bottom:1px solid #e1e1e1;
+}
+
+.promocion:last-child{
+    border-bottom:none;
+}
+
+.promocion summary{
+    background:#f5f5f5;
+    color:#333;
+    padding:1.2rem;
+    font-size:2rem;
+    font-weight:700;
+    border-radius:.5rem;
+    cursor:pointer;
+}
+
+.promocion summary:hover{
+    background:#e8e8e8;
+}
+
+.proyectos{
+    list-style:none;
+    padding:1.5rem;
+    margin-top:1rem;
+}
+
+.proyectos li{
+    background:#f8f8f8;
+    border-left:.5rem solid #71B100;
+   /* margin-bottom:1rem;*/
+    margin-bottom:0.5rem;
+    padding:1rem 1.5rem;
+    border-radius:.5rem;
+    transition:.3s;
+}
+
+.proyectos li:hover{
+    background:#eef8e8;
+    transform:translateX(5px);
+}
+
+.proyecto-enlace{
+    text-decoration:none;
+    color:#333;
+    font-weight:700;
+    display:block;
+}
+
+.proyecto-enlace:hover{
+    color:#71B100;
+}
+
+@media (max-width:768px){
+
+    .institucion summary{
+        font-size:2rem;
+    }
+
+    .promocion summary{
+        font-size:1.8rem;
+    }
+
+    .titulo-proyectos{
+        font-size:3rem;
+    }
+
+}
+.titulo-proyectos{
+    color:#71B100;
+    text-align:center;
+    margin-bottom:4rem;
+}
+
+.servicio{
+   /* margin:1.5rem 0;*/
+    margin:0.5rem 0;
+}
+
+.servicio summary{
+    background:#f5f5f5;
+    border-left:5px solid #71B100;
+    padding:1.5rem;
+    border-radius:.5rem;
+    cursor:pointer;
+    font-weight:700;
+}
+
+.servicio summary:hover{
+    background:#e8f5e9;
+}
+
+.proyectos{
+    list-style:none;
+   /* margin-top:1rem;*/
+    margin-top:0.5rem;
+    padding-left:2rem;
+}
+
+/*.proyectos li{
+    margin-bottom:1rem;
+}*/
+
+.proyecto-enlace{
+    display:block;
+    background:#ffffff;
+    padding:1rem;
+    text-decoration:none;
+    color:#333;
+    border-radius:.5rem;
+    border-left:4px solid #71B100;
+    box-shadow:0 2px 5px rgba(0,0,0,.1);
+}
+
+.proyecto-enlace:hover{
+    background:#f4fff0;
+    color:#71B100;
+}
+
+.proyecto-enlace{
+    text-decoration:none;
+    color:#333;
+    display:block;
+    padding:1rem;
+}
+
+.proyecto-enlace:hover{
+    color:#71B100;
+}
+
+.proyectos{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.proyectos li{
+    margin: 0 !important;
+    padding: 5px 0 !important;
+}
+
+.proyecto-enlace{
+    margin: 0 !important;
+}
